@@ -1,0 +1,55 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"ComaTV"
+		]
+	},
+	"header": {
+		"name": "Environment Armor",
+		"description": "New Environment Armor in game with differently abilities: Sand, Stone, Water",
+		"min_engine_version": [
+			1,
+			21,
+			70
+		],
+		"uuid": "fbf2f4a2-bde9-4249-bb03-6cc6b25eb7f3",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "bdcb7e47-30f2-44a9-84f1-0c741893d0aa",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "8165073a-9c63-4b47-851d-e0f148a837ca",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0-beta"
+		}
+	]
+}
