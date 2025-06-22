@@ -1,4 +1,4 @@
-import { ModalFormData, ActionFormData} from "@minecraft/server-ui";
+import { ActionFormData} from "@minecraft/server-ui";
 
 export async function spinWeal(player, tag) {
     const form = new ActionFormData()
